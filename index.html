@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo-List</title>
+</head>
+<body>
+  <div class="content">
+    <header>
+      <h1>ToDo List</h1>
+    </header>
+    <div class="div-search">
+      <form class="search">
+        <input type="text" placeholder="Pesquisar..." id="todoSearch"> 
+      </form>
+    </div>
+    <div class="div-ul">
+      <ul class="todo-list">
+        <li id="todo" data-todo="Um pedaço no bolso do maluco">
+          <span>Um pedaço no bolso do maluco</span>
+          <i class="far fa-trash-alt" data-trash="Um pedaço no bolso do maluco"></i>
+        </li>
+        <li id="todo" data-todo="olá marilene">
+          <span>olá marilene</span>
+          <i class="far fa-trash-alt" data-trash="olá marilene"></i>
+        </li>
+        <li id="todo" data-todo="123">
+          <span>123</span>
+          <i class="far fa-trash-alt" data-trash="123"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="div-add-todo">
+      <form class="add-todo">
+        <input type="text" placeholder="Novo ToDo" id="addTodo">
+      </form>
+    </div>
+</div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
